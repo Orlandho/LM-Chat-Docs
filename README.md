@@ -38,6 +38,22 @@ This repository hosts the canonical, engineering-grade technical documentation, 
 
 ---
 
+## 📌 Feature Implementation Plans & Google Tasks Audit
+
+Status audit and architectural roadmaps for backlog items (including legacy LACFNO / LLM-Chat tasks):
+
+| Backlog Task & Reference | Architecture & Implementation Plan | Current Status in `omni.lm_chat` |
+| :--- | :--- | :--- |
+| **1. Reconocimiento de IA Razonadora** (*Reasoning Capability*) | [**`plans/PLAN_01_REASONING_MODEL_AWARENESS.md`**](plans/PLAN_01_REASONING_MODEL_AWARENESS.md) | 🟡 **Parcialmente Implementado** (Detección en router; pendiente visor colapsable en UI) |
+| **2. LACFNO - Ampliar Alcance de Edición e Inspección** | [**`plans/PLAN_02_PROJECT_INSPECTION_AND_ADVANCED_EDITING.md`**](plans/PLAN_02_PROJECT_INSPECTION_AND_ADVANCED_EDITING.md) | 🟡 **Parcialmente Implementado** (`StageContextSerializer` activo; pendiente auditor de texturas y mutación masiva) |
+| **3. LACFNO - Modos de Ejecución (Inmediato vs Plan)** | [**`plans/PLAN_03_EXECUTION_MODES_IMMEDIATE_VS_PLAN.md`**](plans/PLAN_03_EXECUTION_MODES_IMMEDIATE_VS_PLAN.md) | 🔴 **Pendiente** (Flujo actual es 100% automático; plan listo para toggle Jules/Gemini CLI) |
+| **4. LLM Chat - Mejorar Visualización de Respuesta** | Integrado en [**`02_LOW_LEVEL_DESIGN.md`**](02_LOW_LEVEL_DESIGN.md) & [**`LM_CHAT_UI_UX_SPEC.md`**](LM_CHAT_UI_UX_SPEC.md) | ✅ **100% Implementado** (Streaming token por token con `append_to_last_message`) |
+| **5. LACFNO - Implementar Historial de Chats** | Integrado en [**`02_LOW_LEVEL_DESIGN.md`**](02_LOW_LEVEL_DESIGN.md) & [`core/chat_history.py`](https://github.com/orlandodorival/LM-Chat) | ✅ **100% Implementado** (Persistencia local, selector de sesiones, 55 pruebas automatizadas) |
+| **6. LM Chat - Fusionar Burbujas con Mensaje Progresivo** | Integrado en [**`LM_CHAT_UI_UX_SPEC.md`**](LM_CHAT_UI_UX_SPEC.md) & [`ui/chat_window.py`](https://github.com/orlandodorival/LM-Chat) | ✅ **100% Implementado** (Burbujas unificadas ZStack, actualización progresiva sin duplicación) |
+
+
+---
+
 ## 🏛️ Architectural Invariants at a Glance
 
 All specifications and codebase implementations adhere strictly to the **LM-Chat Universal Charter** (`AGENTS.md`):

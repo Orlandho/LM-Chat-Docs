@@ -19,3 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `LM_CHAT_UI_UX_SPEC.md`: UI/UX Design Handoff Spec for `omni.ui`, including NVIDIA Obsidian/Green design tokens, typography, component states, and accessibility guidelines.
 - `SECURITY.md`: Production-grade AI & Spatial Computing Security Policy, including AST code sandboxing, MCP capability boundaries, secret vault management, and spatial injection defense.
 - `sync_version.py`: Automated cross-repository SemVer synchronization utility for pairing with `omni.lm_chat`.
+- `plans/PLAN_01_REASONING_MODEL_AWARENESS.md`: Architecture & Implementation plan for thinking/reasoning model classification, parameter adaptation, and UI accordions.
+- `plans/PLAN_02_PROJECT_INSPECTION_AND_ADVANCED_EDITING.md`: Architecture & Implementation plan for project health auditing, missing asset detection, and advanced non-destructive prim mutations.
+- `plans/PLAN_03_EXECUTION_MODES_IMMEDIATE_VS_PLAN.md`: Architecture & Implementation plan for dual execution modes (Immediate Autonomous vs. Plan & Confirm / Jules style).
+
