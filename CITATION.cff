@@ -4,7 +4,7 @@ authors:
   - family-names: "Dorival"
     given-names: "Orlando"
 title: "LM-Chat™: Technical Design Documents & Architectural Specifications for NVIDIA Omniverse Copilot"
-version: 1.0.0
+version: 1.1.0
 date-released: 2026-10-14
 url: "https://github.com/Orlandho/LM-Chat-Docs"
 keywords:

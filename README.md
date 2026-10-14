@@ -3,7 +3,7 @@
 <div align="center">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/Version-<!-- VERSION -->v1.0.0<!-- /VERSION -->-76B900.svg)](https://github.com/Orlandho/LM-Chat-Docs)
+[![Version](https://img.shields.io/badge/Version-<!-- VERSION -->v1.1.0<!-- /VERSION -->-76B900.svg)](https://github.com/Orlandho/LM-Chat-Docs)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![NVIDIA Omniverse](https://img.shields.io/badge/NVIDIA%20Omniverse-Kit%20105%20%7C%20106%20%7C%20107%2B-76B900.svg)](https://www.nvidia.com/en-us/omniverse/)
 [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11-3776AB.svg)](https://www.python.org/)

@@ -1,6 +1,6 @@
 [project]
 name = "lm-chat-docs"
-version = "1.0.0"
+version = "1.1.0"
 description = "LM-Chat™: Comprehensive Technical Architecture, Low-Level Design, PRD, QA Matrix, Runbook and Security Specifications for NVIDIA Omniverse Copilot"
 readme = "README.md"
 requires-python = ">=3.10"

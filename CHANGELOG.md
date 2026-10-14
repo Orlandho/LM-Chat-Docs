@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.1.0] - 2026-10-14
+
+### Added
+- Synchronized documentation suite with LM-Chat™ v1.1.0 core engine milestone.
+- Full architectural coverage for Reasoning Model awareness, USD Inspector, Execution Modes (Immediate vs Plan), Turbo Mode, and Spatial Security Policies.
+- Documented AST sandboxing, protected prim paths (`/OmniverseKit_Root`, `/Render`), and reversible undo mutators in low-level specs.
+
 ## [1.0.0] - 2026-10-14
 
 ### Added
