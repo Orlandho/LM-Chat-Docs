@@ -1,0 +1,27 @@
+[project]
+name = "lm-chat-docs"
+version = "1.0.0"
+description = "LM-Chat™: Comprehensive Technical Architecture, Low-Level Design, PRD, QA Matrix, Runbook and Security Specifications for NVIDIA Omniverse Copilot"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Orlando Dorival" }
+]
+keywords = [
+    "nvidia", "omniverse", "openusd", "ai", "spatial-ai",
+    "architecture", "prd", "lld", "hld", "security", "runbook", "qa-test-plan"
+]
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "v$version"
+version_scheme = "semver"
+version_provider = "pep621"
+update_changelog_on_bump = true
+changelog_file = "CHANGELOG.md"
+version_files = [
+    "pyproject.toml:^version = \"(?P<current>.*)\"",
+    "CITATION.cff:^version: (?P<current>.*)",
+    "README.md:<!-- VERSION -->v(?P<current>.*)<!-- /VERSION -->"
+]

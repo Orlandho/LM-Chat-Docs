@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you reference or utilize the LM-Chat™ Technical Architecture and Design Specifications, please cite it as below."
+authors:
+  - family-names: "Dorival"
+    given-names: "Orlando"
+title: "LM-Chat™: Technical Design Documents & Architectural Specifications for NVIDIA Omniverse Copilot"
+version: 1.0.0
+date-released: 2026-10-14
+url: "https://github.com/Orlandho/LM-Chat-Docs"
+keywords:
+  - "NVIDIA Omniverse"
+  - "Spatial AI"
+  - "OpenUSD"
+  - "Software Architecture"
+  - "ReAct Agent"
+  - "LLM Copilot"
